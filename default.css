@@ -1,0 +1,19 @@
+body {
+    background: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.default {
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    left: 50%;
+    top: 50%;
+    margin-left: -400px;
+    margin-top: -300px;
+}
